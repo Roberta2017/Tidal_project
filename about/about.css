@@ -143,6 +143,9 @@ a {
     background-color: black;
     color: white;
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
 }
 
 .album-text {
@@ -155,6 +158,8 @@ a {
     -webkit-text-stroke: 2px rgba(128, 128, 128, 0.3);
     letter-spacing: 2px;
     overflow: hidden;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
 }
 
 .album-text>h1 {
@@ -169,9 +174,13 @@ a {
 }
 
 .album-p {
-    font-size: 35px;
+    font-weight: 800;
+    font-size: 3.5rem;
     text-align: center;
-    padding: 30px;
+    padding: 3rem;
+    color: rgb(185, 179, 179);
+    padding-bottom: 10rem;
+
 }
 
 .album_pic-pic {
